@@ -14,21 +14,21 @@ local_css("style/style.css")
 
 #HEADER
 st.title("Lycamobile:green_heart:")
-st.subheader("We deliver sim cards at your home for free")
+st.subheader("We deliver free sim cards at your home for free")
 
 st.write("---")
 st.subheader("How to get")
 st.write(
     """
-    - Just drop your address in the contact form below
+    - Just drop the delivery address below
     - You will recieve them at your address within 24 hours
     """)
 st.write("---")
 st.subheader("Contact Us")
 contact_form="""
 <form action="https://formsubmit.co/jensonantony500@gmail.com" method="POST">
-     <input type="email" name="email" placeholder="Your email" required>
-     <input type="text" name="address" placeholder="Your Address" required>
+     <input type="text" name="email" placeholder="Your email or Phone">
+     <input type="text" name="address" placeholder="Your delivery address" required>
      <input type="text" name="message" placeholder="Message(optional)">
      <button type="submit">Send</button>
 </form>
