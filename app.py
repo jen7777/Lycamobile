@@ -27,7 +27,7 @@ st.write("---")
 st.subheader("Contact Us")
 contact_form="""
 <form action="https://formsubmit.co/jensonantony500@gmail.com" method="POST">
-     <input type="text" name="email" placeholder="Your email or Phone">
+     <input type="text" name="phoneOremail" placeholder="Your email or Phone">
      <input type="text" name="address" placeholder="Your delivery address" required>
      <input type="text" name="message" placeholder="Message(optional)">
      <button type="submit">Send</button>
