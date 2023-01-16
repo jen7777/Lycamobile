@@ -24,7 +24,7 @@ st.write(
     - You will recieve them at your address within 24 hours
     """)
 st.write("---")
-st.subheader("Contact Us")
+st.subheader("Contact Us:mailbox:")
 contact_form="""
 <form action="https://formsubmit.co/jensonantony500@gmail.com" method="POST">
      <input type="text" name="phoneOremail" placeholder="Your email or Phone">
